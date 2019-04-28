@@ -39,7 +39,7 @@ RUN mkdir -p /opt /factorio && \
 
 VOLUME /factorio
 
-EXPOSE $PORT/udp $RCON_PORT/tcp
+EXPOSE 34197/udp 27015/tcp
 
 COPY files/ /
 
